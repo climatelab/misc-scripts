@@ -1,1 +1,2 @@
 0 0 * * * /home/pi/Dropbox-Uploader/bkup.sh > bkup-log.txt # JOB_ID_1
+0 * * * * /home/pi/scripts/checkstatus.sh >/dev/null
